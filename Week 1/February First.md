@@ -7,7 +7,6 @@ Including:
 - Recursion
 - Double pointers
 
-
 **Notes**: 
 - The list should be <font color='red'>sequential</font>.
 - Adding two integer numbers may have some problems, because if numbers are long enough,
@@ -153,4 +152,98 @@ class Solution {
         return -1;
     }
 }
+```
+## Similar Questions
+### Leetcode 35 Search Insert Position
+Including:
+- Array
+- Binary search
+- Double pointers
+#### Straight-forward 
+Just simply imitate binary search, use a variable to record <font color="red">middle </font>
+##### Implementation
+```java
+public int searchInsert(int[] nums, int target) {
+    int left = 0;
+    int right = nums.length - 1;
+    int marked_index = 0;
+    while(left <= right){
+        int middle = left + (right - left) / 2;
+        marked_index = middle;
+        if(nums[middle] < target){
+            left = middle + 1;
+        }
+        else if(nums[middle] > target){
+            right = middle - 1;
+        }
+        else{
+            break;
+        }
+    }
+    if(nums[marked_index] < target){
+        return marked_index + 1;
+    }
+    else if(nums[marked_index] > target){
+        if(marked_index == 0){
+            return marked_index;
+        }
+        else{
+            return marked_index;
+        }
+    }
+    else{
+        return marked_index;
+    }
+    }
+```
+
+#### Improvement
+Actually, the left pointer can be used to mark which position we should put the value in,
+Because, if left pass the right position, means:
+- Target is larger than the `array[left]`, after `left + 1`, then the position left point,
+is exactly the correct position we want to put the target in
+- Target is smaller than the `array[left]`, after `right + 1`, then those numbers who are
+larger than target should move on, and putting target in this position
+
+### Leetcode 34 Find First and Last Position of Element in Sorted Array
+Including:
+- Array
+- Binary search
+- Double pointers
+- Built-in function
+#### Stupid One
+Using built-in function of `ArrayList`, `indexOf`and`lastIndexOf`, put every elements
+in this `ArrayList`
+##### Implementation
+```java
+ArrayList<Integer> array = new ArrayList<>();
+for(int i = 0; i < nums.length; i ++){
+    array.add(nums[i]);
+}
+return new int[]{array.indexOf(target), array.lastIndexOf(target)};
+    
+```
+#### Binary search
+
+
+Based on binary search, if this number is existed, then implement two-way search:
+- Left Search: searching towards left, if the previous number is not equal to target,
+stop and record this position
+- Right Search: searching towards right, if the next number is not equal to target, 
+stop and record this position
+  
+```java
+int result = Solution.binarySearch(nums, target);
+int[] ans = {-1, -1};
+if(result != -1){
+    ans[0] = result;
+    ans[1] = result;
+    while(result - 1 >= 0 && nums[result - 1] == target){
+        ans[0] = -- result;
+    }
+    while(result + 1 < nums.length && nums[result + 1] == target){
+        ans[1] = ++ result;
+    }
+}
+return ans;
 ```

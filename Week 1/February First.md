@@ -1,6 +1,6 @@
 # Day 1 February 1st
 ## Leetcode 704 Binary Search
-[Video Analysis](hhttps://www.bilibili.com/video/BV1fA4y1o715/?vd_source=e8f9779956746463d5471d7c18ccae92)
+[Video Analysis](https://www.bilibili.com/video/BV1fA4y1o715/?vd_source=e8f9779956746463d5471d7c18ccae92)
 
 Including:
 - Array
@@ -246,4 +246,37 @@ if(result != -1){
     }
 }
 return ans;
+```
+
+## Leetcode 27 Remove Element
+[Video Analysis](https://www.bilibili.com/video/BV12A4y1Z7LP)
+
+Including:
+- Array
+- Double pointers
+- Fast-slow pointers
+
+**Notes**:
+- Do not allocate extra space for another array
+- Time complexity is `O(1)` strictly
+
+`Array` is a tricky data structure. In `Java`, we can not just remove elements in it, 
+unless we can use other data structure like `ArrayList`, which contains functions like
+`remove`, but this is not a qualified methods
+
+This question can be solved by using double pointers, combining with fast-slow. 
+Faster pointer indicates which elements we want to reserve, slower pointer indicates 
+where we want to put elements into. Because slower pointer indicates the position, therefore,
+at the end, `return slow` actually shows the size of `Array` which only keeps elements we want
+
+### Implementation
+```java
+int slow = 0;
+for(int fast = 0; fast < nums.length; fast ++){
+    if(nums[fast] != val){
+        nums[slow] = nums[fast];
+        slow ++;
+    }
+}
+return slow;
 ```

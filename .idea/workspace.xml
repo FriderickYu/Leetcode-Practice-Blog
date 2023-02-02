@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="leetcode 27 analysis note">
+      <change afterPath="$PROJECT_DIR$/Week 1/Februrary Second.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Second/Untitled 1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Second/Untitled 2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Second/Untitled 3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Second/Untitled 4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Second/Untitled 5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Second/Untitled 6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Second/Untitled.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/February First.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/February First.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +36,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/picture/Februrary Second" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -57,6 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675243890668</updated>
       <workItem from="1675243894654" duration="11232000" />
+      <workItem from="1675319650809" duration="3341000" />
+      <workItem from="1675335508677" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -88,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

@@ -43,7 +43,7 @@ Including:
 
 ### Dummy head
 
-Deleting nodes is not a hard thing, but one thing should be noticed, `head` may be the node we wan to delete,
+Deleting nodes is not a hard thing, but one thing should be noticed, `head` may be the node we wan to delete. **When we use `dummy head`? If we want to operate nodes, but we do not want to verify whether this node is `head` or not, then `dummy head` is the most suitable choice**
 
 so first we define `dummy_head` point to `head`. After that, define two pointers, `previous`and`current`, that is because
 
@@ -306,7 +306,7 @@ class MyLinkedList {
 
 ```
 
-Leetcode 206 Reverse Linked List
+## Leetcode 206 Reverse Linked List
 
 [Video Analysis](https://www.bilibili.com/video/BV1nB4y1i7eL/?spm_id_from=333.788&vd_source=e8f9779956746463d5471d7c18ccae92)
 

@@ -19,7 +19,7 @@ The following graphs show the process
 
 set `dummy head`point to the real head `A`, and set `curr`point to `dummy head`
 
-<img src="/picture/Februrary%20Fourth/double%20pointer%20process%201.jpg" width = "400" height = "160" alt="process 1" align=center/>
+<img src="../picture/Februrary%20Fourth/double%20pointer%20process%201.jpg" width = "400" height = "160" alt="process 1" align=center/>
 
 Then making movement, `curr.next = curr.next.next`, but this movement may lost `node A`, so we have to use `temp`to store `node A`
 

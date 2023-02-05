@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Day 3 analysis note">
-      <change afterPath="$PROJECT_DIR$/Week 1/Februrary Fourth.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourth/double pointer loop 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourth/double pointer loop1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourth/double pointer process 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourth/double pointer process 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourth/double pointer process 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourth/fast-slow pointer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourth/recursion.jpg" afterDir="false" />
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Practice and Correction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/February First.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/February First.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/Februrary Fourth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/Februrary Fourth.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/Februrary Second.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/Februrary Second.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week 1/Februrary Third.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/Februrary Third.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,21 +47,6 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Third" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +60,9 @@
       <workItem from="1675335508677" duration="3120000" />
       <workItem from="1675399907605" duration="3394000" />
       <workItem from="1675404710098" duration="7168000" />
-      <workItem from="1675488600414" duration="10102000" />
+      <workItem from="1675488600414" duration="11548000" />
+      <workItem from="1675576227883" duration="5630000" />
+      <workItem from="1675585181640" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -110,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675419526178</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 4 analysis note and Day 3 note correction">
+      <created>1675507939368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675507939368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +124,9 @@
     <MESSAGE value="leetcode 27 analysis note" />
     <MESSAGE value="Day 2 analysis note" />
     <MESSAGE value="Day 3 analysis note" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3 analysis note" />
+    <MESSAGE value="Day 4 analysis note and Day 3 note correction" />
+    <MESSAGE value="Practice and Correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice and Correction" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

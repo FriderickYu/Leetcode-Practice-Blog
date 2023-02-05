@@ -31,7 +31,7 @@ This shows how to add a node in `linked list`
 
 <img src="../picture/Februrary%20Third/linked%20list%20insertion.jpg" width = "300" height = "200" alt="linked list deletion" align=center/>
 
-## Leetcode 203 Remove Linked List Elements
+## [Leetcode 203 Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 
 [Video Analysis](https://www.bilibili.com/video/BV18B4y1s7R9/?spm_id_from=333.788&vd_source=e8f9779956746463d5471d7c18ccae92)
 
@@ -101,7 +101,7 @@ while(cur != null){
 return head;
 ```
 
-## Leetcode 707 Design Linked List
+## [Leetcode 707 Design Linked List](https://leetcode.com/problems/design-linked-list/)
 
 [Video Analysis](https://www.bilibili.com/video/BV1FU4y1X7WD/?spm_id_from=333.788&vd_source=e8f9779956746463d5471d7c18ccae92)
 

@@ -1,6 +1,6 @@
 # Day 4 Februrary Fourth
 
-## Leetcode 24 Swap Nodes in Pairs
+## [Leetcode 24 Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 [Video Analysis](https://www.bilibili.com/video/BV1YT411g7br/?spm_id_from=333.788&vd_source=e8f9779956746463d5471d7c18ccae92)
 
@@ -86,7 +86,7 @@ head.next = new_node;
 return next_node;
 ```
 
-## Leetcode 19 Nth Node From End of List
+## [Leetcode 19 Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
 [Video Analysis](https://www.bilibili.com/video/BV1vW4y1U7Gf/?spm_id_from=333.788&vd_source=e8f9779956746463d5471d7c18ccae92)
 
@@ -123,7 +123,7 @@ slow.next = slow.next.next;
 return dummy_head.next;
 ```
 
-## Leetcode 160 Intersection of Two Linked lists
+## [Leetcode 160 Intersection of Two Linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 Including:
 
@@ -194,7 +194,7 @@ else{
 return null;
 ```
 
-## Leetcode 141 & 142 Linked List Cycle
+## [Leetcode 141 & 142 Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 Including:
 

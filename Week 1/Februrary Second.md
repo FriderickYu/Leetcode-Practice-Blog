@@ -1,6 +1,6 @@
 # Day 2 February 2nd
 
-## Leetcode 977 Squares of a Sorted Array
+## [Leetcode 977 Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 [Video Analysis](https://www.bilibili.com/video/BV1QB4y1D7ep/?vd_source=e8f9779956746463d5471d7c18ccae92)
 
@@ -58,7 +58,7 @@ return array;
 
 Time Complexity is `O(n)`
 
-## Leetcode **209 Minimum Size Subarray Sum**
+## [Leetcode 209 Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 [Video Analysis](https://www.bilibili.com/video/BV1tZ4y1q7XE/?spm_id_from=333.788&vd_source=e8f9779956746463d5471d7c18ccae92)
 

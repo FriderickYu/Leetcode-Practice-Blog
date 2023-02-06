@@ -77,3 +77,112 @@ for(int j = 0; j < t.length(); j ++){
 return map.isEmpty();
 }
 ```
+
+### Array
+
+As we said, `array` is the easiest form of `hash table`. Therefore, we can also solve this problem by `array`
+
+Here is one thing, there are only lowercase letters in `anagram`. And letters are consistent, presetned in ASCII code (97~122). And numbers are sured, 26 lowercase letters. Therefore, index is the letter, and what array stores is the frequency, if one letter appears once, then `+1` in the corresponding index
+
+```java
+public boolean isAnagram(String s, String t) {
+int[] record = new int[26];
+for(int i = 0; i < s.length(); i ++){
+    record[s.charAt(i) - 'a'] ++;
+}
+for(int j = 0; j < t.length(); j ++){
+    record[t.charAt(j) - 'a'] --;
+}
+for(Integer integer : record){
+    if(integer != 0){
+        return false;
+    }
+}
+return true;
+}
+```
+
+## [Leetcode 349 Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+
+Including:
+
+* Hash table
+* Set
+
+*Too basic*
+
+```java
+HashSet<Integer> set = new HashSet<>();
+HashSet<Integer> result = new HashSet<>();
+for(Integer integer : nums1){
+    set.add(integer);
+}
+for(Integer integer2 : nums2){
+    if(set.contains(integer2)){
+        result.add(integer2);
+    }
+}
+return result.stream().mapToInt(x -> x).toArray();
+```
+
+## [Leetcode 1 Two Sum](https://leetcode.com/problems/two-sum/)
+
+*Too basic*
+
+```java
+HashMap<Integer, Integer> map = new HashMap<>();
+int[] result = new int[2];
+for(int i = 0; i < nums.length; i ++){
+    if(map.containsKey(target - nums[i])){
+        result[0] = i;
+        result[1] = map.get(target - nums[i]);
+    }
+    map.put(nums[i], i);
+}
+return result;
+```
+
+## [Leetcode 202 Happy Number](https://leetcode.com/problems/happy-number/)
+
+Including:
+
+* Set
+* Mod
+
+This question is very tricky, need to think thoroughly
+
+First, how to generate the process
+
+$19 = 1^2 + 9^2, 82 = 8^2 + 2^2$
+
+This can be solved by using `mod`
+
+$19 \div 10 =1...9, 1 / 10 = 1$
+
+```java
+public int generateNextNumber(int n){
+int result = 0;
+while(n > 0){
+    int temp = n % 10;
+    result += temp * temp;
+    n = n / 10;
+}
+return result;
+}
+```
+
+To determine whether it is the `happy number`, first in the end `n` should be 1. Second, if `n` is not the `happy number`, **it will
+iterate endlessly**. But how to determine this will iterate forever?
+
+So, if `n` appears for more than one time, then it will iterate forever. We can use `set` to store all results
+
+```java
+public boolean isHappy(int n) {
+HashSet<Integer> set = new HashSet<>();
+while(n != 1 && set.contains(n) == false){
+    set.add(n);
+    n = generateNextNumber(n);
+}
+return n == 1; 
+}
+```

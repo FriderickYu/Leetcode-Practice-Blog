@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Leetoce 242 Valid Anagram">
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Day 6 analysis note">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/February Fifth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/February Fifth.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/February Fifth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/February Sixth.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/Februrary Fifth/hash table.png" beforeDir="false" afterPath="$PROJECT_DIR$/picture/February Sixth/hash table.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +47,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,7 +77,8 @@
       <workItem from="1675488600414" duration="11548000" />
       <workItem from="1675576227883" duration="5630000" />
       <workItem from="1675585181640" duration="343000" />
-      <workItem from="1675662078514" duration="12181000" />
+      <workItem from="1675662078514" duration="12991000" />
+      <workItem from="1675743407123" duration="398000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -118,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675669531404</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day 5 analysis note">
+      <created>1675693210372</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675693210372</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +157,9 @@
     <MESSAGE value="Day 4 analysis note and Day 3 note correction" />
     <MESSAGE value="Practice and Correction" />
     <MESSAGE value="Leetoce 242 Valid Anagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Leetoce 242 Valid Anagram" />
+    <MESSAGE value="Day 5 analysis note" />
+    <MESSAGE value="Day 6 analysis note" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6 analysis note" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

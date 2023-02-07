@@ -1,4 +1,4 @@
-# Day 5 February Fifth
+# Day 6 February Sixth
 
 ## Hash Table
 
@@ -12,7 +12,7 @@ In `array` search is quick, and insertion and deletion are slow; in `linked list
 
 `Hash table` uses `hash function` to map `key` into `index` of `hash table`, and then the corresponding `value` is founded by querying the `index`
 
-<img src="../picture/Februrary%20Fifth/hash%20table.png" width = "500" height = "270" alt="hash table" align=center/>
+<img src="../picture/February%20Sixth/hash%20table.png" width = "500" height = "270" alt="hash table" align=center/>
 
 For instance, three `entry set` `("ytq", 98), ("qty", 89), ("ddk", 80)`
 

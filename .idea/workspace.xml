@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Day 6 analysis note">
-      <change afterPath="$PROJECT_DIR$/Week 1/Februrary Seventh.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/February Seventh/three sum.jpg" afterDir="false" />
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Day 7 analysis note">
+      <change afterPath="$PROJECT_DIR$/Common Sorting Algorithms/General.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common Sorting Algorithms/bubble_Sort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common Sorting Algorithms/insertion_Sort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common Sorting Algorithms/selection_Sort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Common Sorting Algorithms/bubble_sort/bubble_sort.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Common Sorting Algorithms/selection_sort/selection sort.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,26 +53,12 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\selection_sort" />
+      <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\bubble_sort" />
+      <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms" />
       <recent name="D:\Leetcode-Practice-Blog\picture\February Seventh" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fifth" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fourth" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Third" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +77,7 @@
       <workItem from="1675576227883" duration="5630000" />
       <workItem from="1675585181640" duration="343000" />
       <workItem from="1675662078514" duration="12991000" />
-      <workItem from="1675743407123" duration="14778000" />
+      <workItem from="1675743407123" duration="29733000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -145,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675743892364</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Day 7 analysis note">
+      <created>1675775162431</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675775162431</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +172,8 @@
     <MESSAGE value="Leetoce 242 Valid Anagram" />
     <MESSAGE value="Day 5 analysis note" />
     <MESSAGE value="Day 6 analysis note" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 6 analysis note" />
+    <MESSAGE value="Day 7 analysis note" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 7 analysis note" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

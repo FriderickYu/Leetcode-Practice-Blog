@@ -252,7 +252,7 @@ public void reverseWord(StringBuilder sb){
 }
 ```
 
-## Rotate String
+## [Leetcode 796 Rotate String](https://leetcode.com/problems/rotate-string/solutions/)
 
 Including:
 

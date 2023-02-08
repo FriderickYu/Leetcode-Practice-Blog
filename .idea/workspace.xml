@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Day 8 analysis note">
-      <change afterPath="$PROJECT_DIR$/Common Sorting Algorithms/shell_Sort.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 2/Februrary Eighth.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common Sorting Algorithms/General.md" beforeDir="false" afterPath="$PROJECT_DIR$/Common Sorting Algorithms/General.md" afterDir="false" />
     </list>
@@ -77,6 +75,7 @@
       <workItem from="1675743407123" duration="29733000" />
       <workItem from="1675792829470" duration="392000" />
       <workItem from="1675838354847" duration="15118000" />
+      <workItem from="1675860276116" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675793126959</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day 8 analysis note">
+      <created>1675860485850</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675860485850</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -225,6 +225,21 @@ Because, if left pass the right position, means:
 - Target is smaller than the `array[left]`, after `right + 1`, then those numbers who are
   larger than target should move on, and putting target in this position
 
+```java
+int left = 0, right = nums.length - 1;
+while(left <= right) {
+    int mid = (left + right) / 2;
+    if(nums[mid] == target) {
+        return mid;
+    } else if(nums[mid] < target) {
+        left = mid + 1;
+    } else {
+        right = mid - 1;
+    }
+}
+return left;
+```
+
 ### [Leetcode 34 Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 Including:

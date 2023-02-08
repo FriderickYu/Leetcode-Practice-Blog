@@ -9,7 +9,7 @@ Ten classic sorted algorithms:
   * [Selection Sort](selection_Sort.md)
   * [Insertion Sort](insertion_Sort.md)
 * Based on Divide and Conquer:
-  * Shell Sort
+  * [Shell Sort](shell_Sort.md)
   * Merge Sort
   * Quick Sort
 * Based on Data Structure:

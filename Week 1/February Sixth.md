@@ -1,4 +1,4 @@
-# Day 6 February Sixth
+# Day 6 February Sixth Hash Table
 
 ## Hash Table
 

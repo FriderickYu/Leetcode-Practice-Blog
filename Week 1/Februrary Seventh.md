@@ -1,4 +1,4 @@
-# Day 7 Februrary Seventh
+# Day 7 Februrary Seventh Hash Table
 
 ## [Leetcode 454 4Sum II](https://leetcode.com/problems/4sum-ii/description/)
 
@@ -139,7 +139,7 @@ for(int i = 0; i < nums.length; i ++){
             result.add(Arrays.asList(nums[i], nums[left], nums[right]));
             while (right > left && nums[right] == nums[right - 1]) right--;
             while (right > left && nums[left] == nums[left + 1]) left++;
-    
+  
             right--; 
             left++;
         }

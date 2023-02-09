@@ -1,4 +1,4 @@
-# Day 8 Februrary Eighth
+# Day 8 Februrary Eighth String
 
 ## [Leetcode 344 Reverse String](https://leetcode.com/problems/reverse-string/)
 

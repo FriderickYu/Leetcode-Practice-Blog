@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Insertion sort and optimization">
-      <change afterPath="$PROJECT_DIR$/picture/Common Sorting Algorithms/insertion_sort/insertion_sort.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common Sorting Algorithms/General.md" beforeDir="false" afterPath="$PROJECT_DIR$/Common Sorting Algorithms/General.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common Sorting Algorithms/insertion_Sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/Common Sorting Algorithms/insertion_Sort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common Sorting Algorithms/shell_Sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/Common Sorting Algorithms/shell_Sort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/February First.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/February First.md" afterDir="false" />
-    </list>
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="update catalogues" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,12 +45,25 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Nineth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\insertion_sort" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\selection_sort" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\bubble_sort" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\February Seventh" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,7 +85,8 @@
       <workItem from="1675743407123" duration="29733000" />
       <workItem from="1675792829470" duration="392000" />
       <workItem from="1675838354847" duration="15118000" />
-      <workItem from="1675860276116" duration="7800000" />
+      <workItem from="1675860276116" duration="8729000" />
+      <workItem from="1675903529237" duration="4904000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -165,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675863611784</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Insertion sort and optimization">
+      <created>1675870315978</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675870315978</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update catalogues">
+      <created>1675870590664</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675870590665</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +220,8 @@
     <MESSAGE value="bubble sort and insertion sort" />
     <MESSAGE value="Day 8 analysis note" />
     <MESSAGE value="Insertion sort and optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insertion sort and optimization" />
+    <MESSAGE value="update catalogues" />
+    <option name="LAST_COMMIT_MESSAGE" value="update catalogues" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

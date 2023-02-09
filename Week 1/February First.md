@@ -1,4 +1,4 @@
-# Day 1 February 1st
+# Day 1 February 1st Array
 
 ## [Leetcode 704 Binary Search](https://leetcode.com/problems/binary-search/)
 

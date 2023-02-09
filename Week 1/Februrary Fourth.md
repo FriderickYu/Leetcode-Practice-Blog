@@ -1,4 +1,4 @@
-# Day 4 Februrary Fourth
+# Day 4 Februrary Fourth Linked List
 
 ## [Leetcode 24 Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 

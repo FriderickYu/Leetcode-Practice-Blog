@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="update catalogues">
-      <change afterPath="$PROJECT_DIR$/Week 2/Februray Tenth.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Tenth/queue_to_stack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Tenth/stack_to_queue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 10 analysis note" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +52,19 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\bubble_sort" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +88,7 @@
       <workItem from="1675860276116" duration="8729000" />
       <workItem from="1675903529237" duration="5376000" />
       <workItem from="1675987822245" duration="684000" />
-      <workItem from="1675991781335" duration="7429000" />
+      <workItem from="1675991781335" duration="7798000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -180,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675870590665</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="day 10 analysis note">
+      <created>1676039052786</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676039052786</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +230,8 @@
     <MESSAGE value="Day 8 analysis note" />
     <MESSAGE value="Insertion sort and optimization" />
     <MESSAGE value="update catalogues" />
-    <option name="LAST_COMMIT_MESSAGE" value="update catalogues" />
+    <MESSAGE value="day 10 analysis note" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 10 analysis note" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

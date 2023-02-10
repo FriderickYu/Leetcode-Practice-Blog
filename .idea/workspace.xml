@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="update catalogues" />
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="update catalogues">
+      <change afterPath="$PROJECT_DIR$/Week 2/Februray Tenth.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Tenth/queue_to_stack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Tenth/stack_to_queue.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,25 +50,12 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Tenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Nineth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\insertion_sort" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\selection_sort" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\bubble_sort" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,7 +78,9 @@
       <workItem from="1675792829470" duration="392000" />
       <workItem from="1675838354847" duration="15118000" />
       <workItem from="1675860276116" duration="8729000" />
-      <workItem from="1675903529237" duration="4904000" />
+      <workItem from="1675903529237" duration="5376000" />
+      <workItem from="1675987822245" duration="684000" />
+      <workItem from="1675991781335" duration="7429000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>

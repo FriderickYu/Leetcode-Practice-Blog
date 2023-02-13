@@ -41,7 +41,6 @@ So, an order means values is from smallest to the largest. If a pair number, the
 
 For instance, bubble and insertion, each time we just swap the adjacent number. So each time we just -1 of `inverse order number` each time. But in selection sort, because we swap not adjacent number, which means sometimes we can reduce multiple `inverse order number` each time.
 
-
 ## Analysis
 
 Time Complexity

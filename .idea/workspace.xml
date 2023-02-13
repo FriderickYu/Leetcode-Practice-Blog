@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="correction">
-      <change afterPath="$PROJECT_DIR$/Common Sorting Algorithms/merge_Sort.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 2/Februrary Eleventh.md" afterDir="false" />
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="shell sort and Day 11 analysis note">
+      <change afterPath="$PROJECT_DIR$/Week 2/Februrary thirteenth.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Thirteenth/brute force.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Thirteenth/process1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Thirteenth/queue1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common Sorting Algorithms/General.md" beforeDir="false" afterPath="$PROJECT_DIR$/Common Sorting Algorithms/General.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common Sorting Algorithms/shell_Sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/Common Sorting Algorithms/shell_Sort.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,23 +52,21 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Thirteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\shell_sort" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Tenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Nineth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\insertion_sort" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\selection_sort" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,7 +96,8 @@
       <workItem from="1675903529237" duration="5376000" />
       <workItem from="1675987822245" duration="684000" />
       <workItem from="1675991781335" duration="8170000" />
-      <workItem from="1676184401544" duration="11840000" />
+      <workItem from="1676184401544" duration="12824000" />
+      <workItem from="1676279959000" duration="6894000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676039553011</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="shell sort and Day 11 analysis note">
+      <created>1676205213698</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676205213698</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +255,8 @@
     <MESSAGE value="update catalogues" />
     <MESSAGE value="day 10 analysis note" />
     <MESSAGE value="correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction" />
+    <MESSAGE value="shell sort and Day 11 analysis note" />
+    <option name="LAST_COMMIT_MESSAGE" value="shell sort and Day 11 analysis note" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -110,3 +110,44 @@ public int[] maxSlidingWindow(int[] nums, int k) {
     return list.stream().mapToInt(x -> x).toArray();
 }
 ```
+
+## [Leetcode 347 Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
+
+Including:
+
+* HashMap
+* Sort
+* PriorityQueue(Heap)
+
+`HashMap` is random sorted, therefore we choose `TreeMap` instead
+
+* Convert `treemap` to `list`
+* Implement `Comparator` interface descendingly
+* Use `Entry` to iterate list, and use subList to slice
+
+```java
+public int[] topKFrequent(int[] nums, int k) {
+    TreeMap<Integer, Integer> map = new TreeMap<>();
+
+    for(int i = 0; i < nums.length; i ++){
+        if(!map.containsKey(nums[i])){
+            map.put(nums[i], 1);
+        }
+        else{
+            map.put(nums[i], map.get(nums[i]) + 1);
+        }
+    }
+    ArrayList<Map.Entry<Integer, Integer>> list = new ArrayList<>(map.entrySet());
+    Collections.sort(list, new Comparator<Map.Entry<Integer, Integer>>() {
+        @Override
+        public int compare(Map.Entry<Integer, Integer> o1, Map.Entry<Integer, Integer> o2) {
+            return o2.getValue().compareTo(o1.getValue());
+        }
+    });
+    ArrayList<Integer> arrayList = new ArrayList<>();
+    for(Map.Entry<Integer, Integer> mapping : list.subList(0, k)){
+        arrayList.add(mapping.getKey());
+    }
+    return arrayList.stream().mapToInt(x -> x).toArray();
+}
+```

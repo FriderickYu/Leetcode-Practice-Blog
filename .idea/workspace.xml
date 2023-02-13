@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="shell sort and Day 11 analysis note">
-      <change afterPath="$PROJECT_DIR$/Week 2/Februrary thirteenth.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Thirteenth/brute force.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Thirteenth/process1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Thirteenth/queue1.jpg" afterDir="false" />
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 13 analysis note">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common Sorting Algorithms/shell_Sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/Common Sorting Algorithms/shell_Sort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 2/Februrary thirteenth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 2/Februrary thirteenth.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +93,7 @@
       <workItem from="1675987822245" duration="684000" />
       <workItem from="1675991781335" duration="8170000" />
       <workItem from="1676184401544" duration="12824000" />
-      <workItem from="1676279959000" duration="6894000" />
+      <workItem from="1676279959000" duration="8942000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676205213698</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="day 13 analysis note">
+      <created>1676297698349</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676297698349</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +259,8 @@
     <MESSAGE value="day 10 analysis note" />
     <MESSAGE value="correction" />
     <MESSAGE value="shell sort and Day 11 analysis note" />
-    <option name="LAST_COMMIT_MESSAGE" value="shell sort and Day 11 analysis note" />
+    <MESSAGE value="day 13 analysis note" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 13 analysis note" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

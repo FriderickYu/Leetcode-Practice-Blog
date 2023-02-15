@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 14 analysis note">
-      <change afterPath="$PROJECT_DIR$/Week 2/Februrary Fourteenth.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourteenth/DFS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourteenth/complete_binary_tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourteenth/complete_binary_tree1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourteenth/dfs_inorder1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Fourteenth/dfs_preorder1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 3/Februrary Fifteenth.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Fifteenth/bfs.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,23 +49,21 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fifteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fourteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Thirteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\shell_sort" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Tenth" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Nineth" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,7 +95,8 @@
       <workItem from="1675991781335" duration="8170000" />
       <workItem from="1676184401544" duration="12824000" />
       <workItem from="1676279959000" duration="9474000" />
-      <workItem from="1676358262025" duration="8874000" />
+      <workItem from="1676358262025" duration="9473000" />
+      <workItem from="1676449821321" duration="7010000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>

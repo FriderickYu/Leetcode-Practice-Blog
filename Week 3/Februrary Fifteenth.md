@@ -48,8 +48,11 @@ public void bfs(TreeNode node, List<List<Integer>> result){
 ### Similar Questions
 
 [Leetcode 107 Binary Tree Level order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)
+
 [Leetcode 199 Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)
+
 [Leetcode 637 Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
+
 [Leetcode 429 N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)
 
 ## [Leetcode 226 Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)

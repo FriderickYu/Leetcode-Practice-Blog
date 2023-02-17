@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 15 analysis note">
-      <change afterPath="$PROJECT_DIR$/Week 3/Februrary Sixteenth.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Sixteenth/maximum_depth.jpg" afterDir="false" />
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 16 analysis note">
+      <change afterPath="$PROJECT_DIR$/Week 3/Februrary Seventeenth.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Seventeenth/avl1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Seventeenth/backtrack.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,23 +50,21 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Seventeenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Sixteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fifteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fourteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Thirteenth" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\Common Sorting Algorithms\shell_sort" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,7 +98,8 @@
       <workItem from="1676279959000" duration="9474000" />
       <workItem from="1676358262025" duration="9473000" />
       <workItem from="1676449821321" duration="7833000" />
-      <workItem from="1676534029521" duration="3456000" />
+      <workItem from="1676534029521" duration="3979000" />
+      <workItem from="1676620134220" duration="5640000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676460984167</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="day 16 analysis note">
+      <created>1676538519676</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1676538519676</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +290,8 @@
     <MESSAGE value="day 13 analysis note extension" />
     <MESSAGE value="day 14 analysis note" />
     <MESSAGE value="day 15 analysis note" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 15 analysis note" />
+    <MESSAGE value="day 16 analysis note" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 16 analysis note" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

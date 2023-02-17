@@ -1,4 +1,4 @@
-# Day 15 Februrary Sixteenth Binary tree
+# Day 16 Februrary Sixteenth Binary tree
 
 ## [Leetcode 104 Maximum Depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 

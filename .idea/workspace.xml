@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 16 analysis note">
-      <change afterPath="$PROJECT_DIR$/Week 3/Februrary Seventeenth.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Seventeenth/avl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Seventeenth/backtrack.jpg" afterDir="false" />
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 17 analysis note">
+      <change afterPath="$PROJECT_DIR$/Week 3/Februrary Eighteenth.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Eighteenth/backtracking_recursion1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Eighteenth/determine_binary_tree.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/Februrary Seventeenth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 3/Februrary Seventeenth.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/picture/Februrary Second" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basic-Computer-Science-Knowledge" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -50,11 +51,11 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Eighteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Seventeenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Sixteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fifteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fourteenth" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Thirteenth" />
     </key>
   </component>
   <component name="RunManager">
@@ -99,7 +100,10 @@
       <workItem from="1676358262025" duration="9473000" />
       <workItem from="1676449821321" duration="7833000" />
       <workItem from="1676534029521" duration="3979000" />
-      <workItem from="1676620134220" duration="5640000" />
+      <workItem from="1676620134220" duration="6764000" />
+      <workItem from="1676600673249" duration="100000" />
+      <workItem from="1676605758795" duration="646000" />
+      <workItem from="1676661989987" duration="10400000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -248,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676538519676</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="day 17 analysis note">
+      <created>1676627862291</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676627862291</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +302,8 @@
     <MESSAGE value="day 14 analysis note" />
     <MESSAGE value="day 15 analysis note" />
     <MESSAGE value="day 16 analysis note" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 16 analysis note" />
+    <MESSAGE value="day 17 analysis note" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 17 analysis note" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

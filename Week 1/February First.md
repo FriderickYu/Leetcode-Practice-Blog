@@ -373,7 +373,7 @@ This is a **non-decreasing** order
 
 The core of this problem is to find the boundary that could divide both positive and negative numbers
 
-So, we want to find the **right boundary** of negative numbers
+So, we want to find the **right boundary** of negative numbers. Because of **right boundary**, then at last we want to return high, so moving search at right as possible.
 
 ```java
 if(nums[middle] < 0){
@@ -384,7 +384,7 @@ else{
 }
 ```
 
-If we want to find the **left boundary** of positive numbers
+If we want to find the **left boundary** of positive numbers. Because of **left boundary**, then at last we want to return low, so moving search at left as possible.
 
 ```java
 if(nums[middle] > 0){

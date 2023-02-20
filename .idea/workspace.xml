@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 18 analysis note">
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 19 analysis note">
+      <change afterPath="$PROJECT_DIR$/Week 3/Februrary Twentieth.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary Twentieth/654.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/February First.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/February First.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 2/Februrary Fourteenth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 2/Februrary Fourteenth.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +50,25 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Twentieth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Eighteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Seventeenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Sixteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fifteenth" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fourteenth" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,6 +104,7 @@
       <workItem from="1676605758795" duration="646000" />
       <workItem from="1676661989987" duration="10925000" />
       <workItem from="1676801225426" duration="9560000" />
+      <workItem from="1676875461352" duration="6707000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -271,7 +287,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="leetcode 704 analysis note" />
     <MESSAGE value="leetcode 34 &amp; 35 analysis note" />
     <MESSAGE value="leetcode 27 analysis note" />
     <MESSAGE value="Day 2 analysis note" />
@@ -296,7 +311,8 @@
     <MESSAGE value="day 16 analysis note" />
     <MESSAGE value="day 17 analysis note" />
     <MESSAGE value="day 18 analysis note" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 18 analysis note" />
+    <MESSAGE value="day 19 analysis note" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 19 analysis note" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

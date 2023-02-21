@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 19 analysis note">
-      <change afterPath="$PROJECT_DIR$/Week 3/Februrary Twentieth.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary Twentieth/654.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 3/Februrary twenty-first.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-first/bst.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-first/traverse_reverse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-first/traverse_reverse2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-first/traverse_reverse3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 2/Februrary Fourteenth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 2/Februrary Fourteenth.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +52,23 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary twenty-first" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Twentieth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Eighteenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Seventeenth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Sixteenth" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Fifteenth" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,7 +108,8 @@
       <workItem from="1676605758795" duration="646000" />
       <workItem from="1676661989987" duration="10925000" />
       <workItem from="1676801225426" duration="9560000" />
-      <workItem from="1676875461352" duration="6707000" />
+      <workItem from="1676875461352" duration="7392000" />
+      <workItem from="1676946386263" duration="8868000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -267,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676725103254</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="day 19 analysis note">
+      <created>1676895663779</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676895663779</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

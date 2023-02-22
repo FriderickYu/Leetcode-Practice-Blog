@@ -32,7 +32,7 @@ public void inorder(TreeNode root, List<Integer> list){
 }
 ```
 
-## [Leetcode 501 Find mode in binary search tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
+## [Leetcode 235 Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)
 
 <img src="../picture/Februrary%20twenty-first/traverse_reverse.jpg" width = "400" height = "180" alt="traverse_reverse" align=center/>
 

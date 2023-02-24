@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 21 analysis note">
-      <change afterPath="$PROJECT_DIR$/Week 4/Februrary twenty-third.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-third/convert_binary_tree.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-third/trim_node.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 4/Februrary twenty-fourth.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-fourth/backtracking.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-fourth/backtracking_withdraw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-fourth/combination.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-fourth/combination_process.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-fourth/leaf_node.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/Februrary twenty-fourth/pruning.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +54,25 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary twenty-fourth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary twenty-third" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary twenty-second" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary twenty-first" />
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Twentieth" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Eighteenth" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,6 +116,7 @@
       <workItem from="1677137677384" duration="302000" />
       <workItem from="1677155433316" duration="2125000" />
       <workItem from="1677159452334" duration="1582000" />
+      <workItem from="1677209340040" duration="13900000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>

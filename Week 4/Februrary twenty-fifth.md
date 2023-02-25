@@ -31,12 +31,70 @@ public void backtracking(int k, int n, int startIndex, List<List<Integer>> resul
         return;
     }
     for(int i = startIndex; i <= 9 - (k - path.size()) + 1; i ++){
-        
+  
         path.add(i);
         sum += i;
         backtracking(k, n, i + 1, result, path, sum);
         path.removeLast();
         sum -= i;
+    }
+}
+```
+
+## [Leetcode 17 Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
+
+There are two problems that we need to deal with:
+
+1. how to map numbers to letters
+2. how to design recursion and backtracking processes
+
+### How to map numbers to letters
+
+```java
+String[] map = 
+{"", // 0
+"", // 1
+"abc", // 2
+"def", // 3
+"ghi", // 4
+"jkl", // 5
+"mno", // 6
+"pqrs", // 7
+"tuv", // 8
+"wxyz" // 9
+};
+```
+
+### How to design recursion and backtracking processes
+
+<img src="../picture/Februrary%20twenty-fifth/phone_numbers.jpg" width = "400" height = "190" alt="phone_numbers" align=center/>
+
+1. set `index` to record which number currently we point, also `index` indicates the depth of tree. Like `23`, so it only needs to iterate two layers. The end condition is `if(index == digits.size())`
+2. convert number to letter, `String str = map[digits.charAt(index) - '0']`
+3. add value of every path into string
+4. recursion, and backtracking
+
+```java
+StringBuilder sb = new StringBuilder();
+public List<String> letterCombinations(String digits) {
+    List<String> result = new ArrayList<>();
+    if(digits == null || digits.length() == 0){
+        return result;
+    }
+    String[] map = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+    backtracking(digits, map, result, 0);
+    return result;
+}
+public void backtracking(String digits, String[] map, List<String> result, int index){
+    if(index == digits.length()){
+        result.add(sb.toString());
+        return;
+    }
+    String str = map[digits.charAt(index) - '0'];
+    for(int i = 0; i < str.length(); i ++){
+        sb.append(str.charAt(i));
+        backtracking(digits, map, result, index + 1);
+        sb.deleteCharAt(sb.length() - 1);
     }
 }
 ```

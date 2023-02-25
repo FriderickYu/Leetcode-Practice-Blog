@@ -53,7 +53,7 @@ Watch this backtracking & recursion process
 
 ```java
 for(iterate the set to generate nodes){
-    process nodes
+    add value of path
     // recursion
     backtracking(paths, list);
     backtracking to the previous node, withdraw the process

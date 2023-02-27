@@ -80,3 +80,45 @@ public void backtracking(int[] candidates, int target, int startIndex, List<List
     }
 }
 ```
+
+## [Leetcode 131 Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
+
+Several issues:
+
+* how to partition
+* how to verify whether a sub-string is palindrome
+* what is the end condition
+
+What is the end condition: we always use `startIndex`, it's like a signal to start. Or it can also be a signal to end. when `startIndex` is larger or equal to `s.length()`, then stop
+
+We can use double-pointers to determine palindrome. `i` starts with the begin, `j` starts with end, determine `s.charAt(i) ? s.charAt`, if not equal, then it is not a palindrome
+
+This question can also be abstracted to a binary tree, we can use `String substring(begin, end)` to partition the palindrome sub-string we want
+
+```java
+public void backtracking(String s, int startIndex, List<List<String>> result, LinkedList<String> path){
+    if(startIndex >= s.length()){
+        result.add(new LinkedList<>(path));
+        return;
+    }
+    for(int i = startIndex; i < s.length(); i ++){
+        if(isPalindrome(s, startIndex, i)){
+            String str = s.substring(startIndex, i + 1);
+            path.add(str);
+        }
+        else{
+            continue;
+        }
+        backtracking(s, i + 1, result, path);
+        path.removeLast();
+    }
+}
+public boolean isPalindrome(String s, int start, int end){
+    for(int i = start, j = end; i < j; i ++, j --){
+        if(s.charAt(i) != s.charAt(j)){
+            return false;
+        }
+    }
+    return true;
+}
+```

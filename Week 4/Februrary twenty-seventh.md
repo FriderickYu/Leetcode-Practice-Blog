@@ -37,3 +37,46 @@ public void backtracking(int[] candidates, int target, int startIndex, List<List
     }
 }
 ```
+
+## [Leetcode 40 Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
+
+* Each number is `candidates` may only be used **once** in the combination
+* The solution set must not contain duplicate combinations
+
+We should notice that, there are duplicate numbers in the array, therefore
+if we don't de-duplicate the array, set is very possible contain duplication
+
+<img src="../picture/Februrary%20twenty-seventh/de-duplication.jpg" width = "400" height = "200" alt="de-duplication" align=center/>
+
+Therefore, what we need to de-duplicate is the "used" elements on the same tree level, elements on the same branch are all elements of the same combination and do not need to be de-duplicated
+
+```java
+public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+    List<List<Integer>> result = new ArrayList<>();
+    LinkedList<Integer> path = new LinkedList<>();
+    Arrays.sort(candidates);
+    backtracking(candidates, target, 0, result, path, 0);
+    return result;
+}
+public void backtracking(int[] candidates, int target, int startIndex, List<List<Integer>> result, LinkedList<Integer> path, int sum){
+    if(sum > target){
+        return;
+    }
+    if(sum == target){
+        result.add(new LinkedList<>(path));
+    }
+    for(int i = startIndex; i < candidates.length; i ++){
+        if(sum + candidates[i] > target){
+            break;
+        }
+        if(i > startIndex && candidates[i] == candidates[i - 1]){
+            continue;
+        }
+        path.add(candidates[i]);
+        sum += candidates[i];
+        backtracking(candidates, target, i + 1, result, path, sum);
+        path.removeLast();
+        sum -= candidates[i];
+    }
+}
+```

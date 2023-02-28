@@ -9,7 +9,7 @@ Backtracking is not a very efficient algorithm, because the essence of backtrack
 ### Categories
 
 * Combination: like find the set of `k` numbers in `N` numbers according to certain rules. Ex: in `[1, 2, 3, 4]`, `[1, 2]`, `[1, 3]`, `[1, 4]`, `[2, 3]`, `[2, 4]`, `[3, 4]`
-* Cutting: how many ways a string can be cut according to certain ways
+* Partitioning: how many ways a string can be cut according to certain ways
 * Subset: how many eligible subsets are there in a set of N numbers
 * Permutation: how many ways we can arrange N numbers, according to certain ways
 * The board: N queens, Sudoku

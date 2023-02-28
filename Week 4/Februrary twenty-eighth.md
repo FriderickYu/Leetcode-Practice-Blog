@@ -61,3 +61,33 @@ class Solution {
     }
 }
 ```
+
+## [Leetcode 78 Subsets](https://leetcode.com/problems/subsets/description/)
+
+This is a typical **subset** problem. Unlike problems we previously deal with, those are combination and partitioning problems, which we also abstract to binary tree structure, and answers are always leaf nodes.
+
+In subset problem, it's quite different.
+
+<img src="../picture/Februrary%20twenty-eighth/subset.jpg" width = "400" height = "270" alt="subset" align=center/>
+
+We need to find every nodes in the tree, which means traverse the entire tree.
+
+```java
+public List<List<Integer>> subsets(int[] nums) {
+    List<List<Integer>> result = new ArrayList<>();
+    LinkedList<Integer> path = new LinkedList<>();
+    backtracking(nums, 0, result, path);
+    return result;
+}
+public void backtracking(int[] nums, int startIndex, List<List<Integer>> result, LinkedList<Integer> path){
+    result.add(new LinkedList<>(path));
+    if(startIndex >= nums.length){
+        return;
+    }
+    for(int i = startIndex; i < nums.length; i ++){
+        path.add(nums[i]);
+        backtracking(nums, i + 1, result, path);
+        path.removeLast();
+    }
+}
+```

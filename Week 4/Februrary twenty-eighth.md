@@ -91,3 +91,31 @@ public void backtracking(int[] nums, int startIndex, List<List<Integer>> result,
     }
 }
 ```
+
+## [Leetcode 90 Subsets II](https://leetcode.com/problems/subsets-ii/description/)
+
+This question is similar with the mixture of [Leetcode 78 Subsets](https://leetcode.com/problems/subsets/description/) and [Leetcode 40 Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
+
+```java
+public List<List<Integer>> subsetsWithDup(int[] nums) {
+    List<List<Integer>> result = new ArrayList<>();
+    LinkedList<Integer> path = new LinkedList<>();
+    Arrays.sort(nums);
+    backtracking(nums, 0, result, path);
+    return result;
+}
+public void backtracking(int[] nums, int startIndex, List<List<Integer>> result, LinkedList<Integer> path){
+    result.add(new LinkedList<>(path));
+    if(startIndex >= nums.length){
+        return;
+    }
+    for(int i = startIndex; i < nums.length; i ++){
+        if(i > startIndex && nums[i] == nums[i - 1]){
+            continue;
+        }
+        path.add(nums[i]);
+        backtracking(nums, i + 1, result, path);
+        path.removeLast();
+    }
+}
+```

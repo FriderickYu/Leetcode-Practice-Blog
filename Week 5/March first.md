@@ -79,3 +79,50 @@ public void backtracking(int[] nums, List<List<Integer>> result, LinkedList<Inte
     }
 }
 ```
+
+## [Leetcode 47 Permutations III](https://leetcode.com/problems/permutations-ii/description/)
+
+This question needs to consider de-duplication from the same layer and the same path
+
+For example, like `[1, 1, 2]`
+
+<img src="../picture/March%20First/permutation_tree3.jpg" width = "400" height = "323" alt="permutation_tree3" align=center/>
+
+The first `1` and the second `1`, can repeatly occur in the same path; But they can't appear on the same layer
+
+We create an array named `used` to solve this problem
+
+* if `used[i - 1] == true`, means `nums[i - 1]` is used in the same path, which is alright
+* if `used[i - 1] == false`, means `nums[i - 1]` is used in the same layer, not okay
+* if `nums[i] == nums[i - 1] && used[i - 1] == false`
+
+```java
+boolean[] used;
+public List<List<Integer>> permuteUnique(int[] nums) {
+    List<List<Integer>> result = new ArrayList<>();
+    LinkedList<Integer> path = new LinkedList<>();
+    used = new boolean[nums.length];
+    Arrays.fill(used, false);
+    Arrays.sort(nums);
+    backtracking(nums, result, path);
+    return result;
+}
+public void backtracking(int[] nums, List<List<Integer>> result, LinkedList<Integer> path){
+    if(path.size() == nums.length){
+        result.add(new ArrayList<>(path));
+        return;
+    }
+    for(int i = 0; i < nums.length; i ++){
+        if(i > 0 && nums[i] == nums[i - 1] && used[i - 1] == false){
+            continue;
+        }
+        if(used[i] == false){
+            used[i] = true;
+            path.add(nums[i]);
+            backtracking(nums, result, path);
+            path.removeLast();
+            used[i] = false;
+        }
+    }
+}
+```

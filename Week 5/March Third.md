@@ -34,6 +34,40 @@ public int findContentChildren(int[] g, int[] s) {
 }
 ```
 
+## [Leetcode 376 Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)
+
+Wiggle subsequence needs turbulence in the array
+
+<img src="../picture/March%20Third/wiggle_subsequence.jpg" width = "400" height = "200" alt="wiggle_subsequence" align=center/>
+
+The rational choice is to cancel elements on the monotonous slope, except two endpoints
+
+```java
+public int wiggleMaxLength(int[] nums) {
+    if(nums.length <= 1){
+        return nums.length;
+    }
+    int curDiff = 0;
+    int preDiff = 0;
+    int count = 1;
+    if(nums.length == 2){
+        if(nums[0] == nums[1]){
+            return 1;
+        }
+        else{
+            return 2;
+        }
+    }
+    for(int i = 1; i < nums.length; i ++){
+        curDiff = nums[i] - nums[i - 1];
+        if((curDiff > 0 && preDiff <= 0) || (curDiff < 0 && preDiff >= 0)){
+            count ++;
+            preDiff = curDiff;
+        }
+    }
+    return count;
+}
+```
 ## [Leetcode 53 Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 
 * Local optimum: when the consistent sum is smaller than 0, then quit, and continue to calculate the sum from the next element.

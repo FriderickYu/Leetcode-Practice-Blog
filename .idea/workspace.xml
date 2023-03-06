@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 30 analysis note">
-      <change afterPath="$PROJECT_DIR$/Week 5/March Sixth.md" afterDir="false" />
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="day 31 analysis note">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 5/March Sixth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 5/March Sixth.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +120,7 @@
       <workItem from="1677819062389" duration="10323000" />
       <workItem from="1677909520141" duration="4485000" />
       <workItem from="1677936677043" duration="1454000" />
-      <workItem from="1678092061400" duration="2963000" />
+      <workItem from="1678092061400" duration="4277000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -332,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677916984869</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="day 31 analysis note">
+      <created>1678103907060</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678103907060</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +359,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Leetoce 242 Valid Anagram" />
     <MESSAGE value="Day 5 analysis note" />
     <MESSAGE value="Day 6 analysis note" />
     <MESSAGE value="Day 7 analysis note" />
@@ -377,7 +383,8 @@
     <MESSAGE value="leetcode 45 &amp;&amp; 53" />
     <MESSAGE value="leetcode 376" />
     <MESSAGE value="day 30 analysis note" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 30 analysis note" />
+    <MESSAGE value="day 31 analysis note" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 31 analysis note" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

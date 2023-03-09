@@ -11,7 +11,7 @@ Ten classic sorted algorithms:
 * Based on Divide and Conquer:
   * [Shell Sort](shell_Sort.md)
   * [Merge Sort](merge_Sort.md)
-  * Quick Sort
+  * [Quick Sort](quick_Sort.md)
 * Based on Data Structure:
   * Heap Sort
 * Based on Count:

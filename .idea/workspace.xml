@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="leetcode 135">
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="quick sort">
+      <change afterPath="$PROJECT_DIR$/Common Sorting Algorithms/quick_Sort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 6/March Eighth.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 6/March Nineth.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 5/March seventh.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 5/March seventh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common Sorting Algorithms/General.md" beforeDir="false" afterPath="$PROJECT_DIR$/Common Sorting Algorithms/General.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +126,9 @@
       <workItem from="1677909520141" duration="4485000" />
       <workItem from="1677936677043" duration="1454000" />
       <workItem from="1678092061400" duration="4700000" />
-      <workItem from="1678181462132" duration="2028000" />
+      <workItem from="1678181462132" duration="2550000" />
+      <workItem from="1678237961817" duration="1731000" />
+      <workItem from="1678328212781" duration="4472000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
@@ -369,7 +374,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day 6 analysis note" />
     <MESSAGE value="Day 7 analysis note" />
     <MESSAGE value="bubble sort and insertion sort" />
     <MESSAGE value="Day 8 analysis note" />
@@ -394,7 +398,8 @@
     <MESSAGE value="day 30 analysis note" />
     <MESSAGE value="day 31 analysis note" />
     <MESSAGE value="leetcode 135" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode 135" />
+    <MESSAGE value="quick sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick sort" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

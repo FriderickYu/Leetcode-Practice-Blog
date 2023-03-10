@@ -46,3 +46,28 @@ public int fib(int n) {
     return dp[n];
 }
 ```
+
+## [Leetcode 70 Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
+
+So, deducing some examples and it's not difficult to find that `dp[i]`, it's `dp[i - 1] + one step` and `dp[i - 2] + two steps`, therefore `dp[i] = dp[i - 1] + dp[i - 2]`. The each state can be derived from previous states, so this is a dp problem.
+
+1. determine dp table and index: dp[i] stores how many distinct ways in can we climb to i steps
+2. determine recursion formula: `dp[i] = dp[i - 1] + dp[i - 2], for i > 2`
+3. how to initialize dp table: `dp[1] = 1, dp[2] = 2`
+4. determine the order of traverse: according to step 2, it's from start to end
+5. derive dp by example: `dp[4] = 5`
+
+```java
+public int climbStairs(int n) {
+    if(n <= 2){
+        return n;
+    }
+    int[] dp = new int[n + 1];
+    dp[1] = 1;
+    dp[2] = 2;
+    for(int i = 3; i <= n; i ++){
+        dp[i] = dp[i - 1] + dp[i - 2];
+    }
+    return dp[n];
+}
+```

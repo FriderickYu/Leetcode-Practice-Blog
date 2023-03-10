@@ -71,3 +71,37 @@ public int climbStairs(int n) {
     return dp[n];
 }
 ```
+
+## [Leetcode 746 Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
+
+1. determine dp table and index: dp[i] stores min cost of $i^{th}$ step
+2. determine recursion formula: `dp[i] = min(dp[i - 1] + cost[i - 1], dp[i - 2] + cost[i - 2])`
+3. how to initialize dp table: `dp[0] = 0, dp[1] = 0`
+4. determine the order of traverse: according to step 2, it's from start to end
+5. derive dp by example:
+
+**cost**
+
+
+| 0 | 1   | 2 | 3 | 4 | 5   | 6 | 7 | 8   | 9 | 10    |
+| --- | ----- | --- | --- | --- | ----- | --- | --- | ----- | --- | ------- |
+| 1 | 100 | 1 | 1 | 1 | 100 | 1 | 1 | 100 | 1 | floor |
+
+**dp**
+
+
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- |
+| 0 | 0 | 1 | 2 | 2 | 3 | 3 | 4 | 4 | 5 | 6  |
+
+```java
+public int minCostClimbingStairs(int[] cost) {
+    int[] dp = new int[cost.length + 1];
+    dp[0] = 0;
+    dp[1] = 0;
+    for(int i = 2; i <= cost.length; i ++){
+        dp[i] = Math.min(dp[i - 1] + cost[i - 1], dp[i - 2] + cost[i - 2]);
+    }
+    return dp[cost.length];
+}
+```

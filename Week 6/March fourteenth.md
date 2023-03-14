@@ -106,3 +106,57 @@ public static void testWeightBagProblem(int[] weight, int[] value, int bagSize){
     }
 }
 ```
+
+## Improvement
+
+If we observe the derivation function carefully, we may find that `dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weight[i]] + value[i]);`  We can use `dp[i - 1]` to cover up `dp[i]`. Then it comes to `dp[i][j] = max(dp[i][j], dp[i][j - weight[i]] + value[i]);`
+
+It means we can just use one dimensional array instead.
+
+### Determine dp table and index
+
+`dp[j]` represents that the maximum value when the knapsack capacity is `j`
+
+### Determine recursion formula
+
+`dp[j]` can be derived from `dp[j - weight[i]]`, `dp[j - weight[i]]` means the maximum value of `j - weight[i]` knapsack capacity. `dp[j - weight[i]] + value[i]` means `j - weight[i]` knapsack capacity plus the value of item i
+
+So, two options:
+
+1. don't pick it: `dp[j]`, same with `dp[i - 1][j]`
+2. pick it: `dp[j - weight[i]] + value[i]`
+
+### How to initialize dp table
+
+When capacity is 0, then the maximum should also be 0; `dp[0] = 0`
+
+### Determine the order of traverse
+
+We also need a two nested-loop here, first is the item, then capacity. However, the difference is, the capacity loop is from end to start, **not start to end**. That is because we wanna ensure that one item is only used once.
+
+For instance, if we traverse from start to end, then `dp[1] = dp[1-0] + 15 = 15`, `dp[2] = dp[2-1]  + 15 = 30`. See, item 0 counts twice. But if we traverse from end to start, then `dp[2] = dp[2-1] + 15 = 15`, `dp[1] = dp[1-0] + 15 = 15`
+
+### Derive dp by example
+
+<img src="../picture/March%20fourteenth/example%20one%20dimension.jpg" width = "400" height = "400" alt="example" align=center/>
+
+```java
+public static void main(String[] args) throws IOException {
+    int[] weight = {1,3,4};
+    int[] value = {15,20,30};
+    int bagSize = 4;
+    testWeightBagProblem(weight,value,bagSize);
+}
+public static void testWeightBagProblem(int[] weight, int[] value, int bagSize){
+    int[] dp = new int[bagSize + 1];
+    dp[0] = 0;
+    for(int i = 0; i < weight.length; i ++){
+        for(int j = bagSize; j >= weight[i]; j --){
+            dp[j] = Math.max(dp[j], dp[j - weight[i]] + value[i]);
+        }
+    }
+    for(int j = 0; j <= bagSize; j ++){
+        System.out.print(dp[j] + " ");
+    }
+}
+```

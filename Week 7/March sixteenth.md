@@ -125,6 +125,8 @@ Because of the complete knapsack problem, in knapsack, it's from start to end. H
 
 ### Derive dp by example:
 
+<img src="../picture/March%20sixteenth/traversal_order.jpg" width = "400" height = "205" alt="traversal_order" align=center/>
+
 ```java
 public int combinationSum4(int[] nums, int target) {
     int[] dp = new int[target + 1];

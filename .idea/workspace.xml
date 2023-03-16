@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="quick sort">
-      <change afterPath="$PROJECT_DIR$/picture/March sixteenth/coin_change.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week 7/March sixteenth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 7/March sixteenth.md" afterDir="false" />
     </list>
@@ -132,7 +131,7 @@
       <workItem from="1678701585578" duration="5314000" />
       <workItem from="1678789137722" duration="14288000" />
       <workItem from="1678859778169" duration="7319000" />
-      <workItem from="1678947846561" duration="4313000" />
+      <workItem from="1678947846561" duration="7195000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>

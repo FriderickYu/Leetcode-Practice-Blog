@@ -62,7 +62,6 @@ This question can be abstracted to a complete knapsack, because:
 
 1. This is capacity, 4
 2. 3 options, and each option can be selected for multiple times
-3.
 
 ### Determine dp table and index
 
@@ -94,5 +93,49 @@ public int change(int amount, int[] coins) {
         }
     }
     return dp[amount];
+}
+```
+
+## [Leetcode 377 Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
+
+This question can be abstracted to a complete knapsack problem, because:
+
+1. target is the capacity
+2. `nums` are the item, which can be selected for multiple times
+
+### Determine dp table and index
+
+`dp[j` represetns how many distinct ways we select numbers, to reach capacity j
+
+### Determine recursion formula
+
+If number is 2, capacity is 4, then `dp[4] += dp[4 - 2]`
+
+`dp[j] = dp[j - nums[i]]`
+
+### How to initialize dp table
+
+According to the recursion formula, `dp[0] = 1`
+
+### Determine the order of traverse
+
+Reminding, this is a permutation problem, not a combination problem. For instance, in permutation problem, `{1, 2}` and `{2, 1}` are two completely different sets. In combination problem, `{1, 2}` and `{2, 1}` are the same.
+
+Because of the complete knapsack problem, in knapsack, it's from start to end. However, in this question, the first loop is knapsack, the second loop is item. **In the combination problem, the first loop is item, but the second loop is knapsack.**
+
+### Derive dp by example:
+
+```java
+public int combinationSum4(int[] nums, int target) {
+    int[] dp = new int[target + 1];
+    dp[0] = 1;
+    for(int j = 0; j <= target; j ++){
+        for(int i = 0; i < nums.length; i ++){
+            if(j >= nums[i]){
+                dp[j] += dp[j - nums[i]];
+            }
+        }
+    }
+    return dp[target];
 }
 ```

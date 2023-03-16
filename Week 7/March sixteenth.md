@@ -55,3 +55,44 @@ private static void CompleteKnapsack(){
     }
 }
 ```
+
+## [Leetcode 518 Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
+
+This question can be abstracted to a complete knapsack, because:
+
+1. This is capacity, 4
+2. 3 options, and each option can be selected for multiple times
+3.
+
+### Determine dp table and index
+
+`dp[j]` represents how many ways we can select coins, in j capacity
+
+### Determine recursion formula
+
+If coin is 2, capacity is 4, then `dp[4] += dp[4 - 2]`
+
+### How to initialize dp table
+
+According to the recursion formula, `dp[0] = 1`
+
+### Determine the order of traverse
+
+This is a complete knapsack problem, so in the second loop, it should be from the start to end
+
+### Derive dp by example:
+
+<img src="../picture/March%20sixteenth/coin_change.jpg" width = "400" height = "505" alt="coin_change" align=center/>
+
+```java
+public int change(int amount, int[] coins) {
+    int[] dp = new int[amount + 1];
+    dp[0] = 1;
+    for(int i = 0; i < coins.length; i ++){
+        for(int j = coins[i]; j <= amount; j ++){
+            dp[j] += dp[j - coins[i]];
+        }
+    }
+    return dp[amount];
+}
+```

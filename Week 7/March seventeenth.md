@@ -66,3 +66,24 @@ public int coinChange(int[] coins, int amount) {
     return dp[amount] == max ? -1 : dp[amount];
 }
 ```
+
+## [Leetcode 279 Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)
+
+This question is almost the same with [Leetcode 322 Coin Change](https://leetcode.com/problems/coin-change/description/)
+
+```java
+public int numSquares(int n) {
+    int max = Integer.MAX_VALUE;
+    int[] dp = new int[n + 1];
+    dp[0] = 0;
+    for(int j = 1; j <= n; j ++){
+        dp[j] = max;
+    }
+    for(int j = 1; j <= n; j ++){
+        for(int i = 1; i * i <= j; i ++){
+            dp[j] = Math.min(dp[j], dp[j - i * i] + 1);
+        }
+    }
+    return dp[n];
+}
+```

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="quick sort">
+      <change afterPath="$PROJECT_DIR$/Week 7/March eighteenth.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +56,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,7 +132,8 @@
       <workItem from="1678789137722" duration="14288000" />
       <workItem from="1678859778169" duration="7319000" />
       <workItem from="1678947846561" duration="8031000" />
-      <workItem from="1679034850913" duration="4993000" />
+      <workItem from="1679034850913" duration="6476000" />
+      <workItem from="1679154576752" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>

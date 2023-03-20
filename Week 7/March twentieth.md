@@ -155,6 +155,8 @@ public int[] robRecursion(TreeNode root){
     if(root == null){
         return dp;
     }
+    // left is to record dp of root.left
+    // right is to record dp of root.right
     int[] left = robRecursion(root.left);
     int[] right = robRecursion(root.right);
     dp[0] = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);

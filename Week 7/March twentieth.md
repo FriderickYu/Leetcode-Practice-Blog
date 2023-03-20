@@ -1,4 +1,4 @@
-# Day March twentiteenth Dynamic Programming
+# Day March twentieth Dynamic Programming
 
 ## [Leetcode 198 House Robber](https://leetcode.com/problems/house-robber/description/)
 
@@ -87,3 +87,5 @@ public int robDP(int[] nums, int start, int end){
     return dp[end];
 }
 ```
+
+## [Leetcode 337 House Robber III](https://leetcode.com/problems/house-robber-iii/)

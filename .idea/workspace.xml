@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="leetcode 139">
-      <change beforePath="$PROJECT_DIR$/Week 7/March twentieth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 7/March twentieth.md" afterDir="false" />
-    </list>
+    <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="leetcode 139" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,21 +51,6 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\March sixteenth" />
       <recent name="D:\Leetcode-Practice-Blog\Week 7" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -134,7 +117,7 @@
       <workItem from="1679034850913" duration="6476000" />
       <workItem from="1679154576752" duration="1128000" />
       <workItem from="1679219723033" duration="4585000" />
-      <workItem from="1679295384378" duration="10768000" />
+      <workItem from="1679295384378" duration="11272000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>

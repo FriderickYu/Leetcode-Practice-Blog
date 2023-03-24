@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Day 46">
-      <change afterPath="$PROJECT_DIR$/Week 8/March twentieth-fourth.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/March twentieth-fourth/comparsion.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 8/March twentieth-third.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 8/March twentieth-third.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 8/March twentieth-fourth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 8/March twentieth-fourth.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +139,7 @@
       <workItem from="1679377328368" duration="5482000" />
       <workItem from="1679466518065" duration="1319000" />
       <workItem from="1679547885672" duration="1271000" />
-      <workItem from="1679642862362" duration="3027000" />
+      <workItem from="1679642862362" duration="3967000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>

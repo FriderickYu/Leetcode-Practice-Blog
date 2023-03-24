@@ -46,3 +46,26 @@ public int lengthOfLIS(int[] nums) {
     return result;
 }
 ```
+
+## [Leetcode 674 Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)
+
+This is a very easy question. Because the answer requires *continuous* subsequence. So we only need to compare adjacent elements, `if(nums[i] > nums[i - 1])`, then `dp[i] = dp[i - 1] + 1`
+
+```java
+public int findLengthOfLCIS(int[] nums) {
+    int[] dp = new int[nums.length];
+    Arrays.fill(dp, 1);
+    for(int i = 1; i < nums.length; i ++){
+        if(nums[i] > nums[i - 1]){
+            dp[i] = dp[i - 1] + 1;
+        }
+    }
+    int max = 0;
+    for(int i = 0; i < dp.length; i ++){
+        if(dp[i] > max){
+            max = dp[i];
+        }
+    }
+    return max;
+}
+```

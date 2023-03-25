@@ -68,3 +68,48 @@ public int maxUncrossedLines(int[] nums1, int[] nums2) {
     return dp[nums1.length][nums2.length];
 }
 ```
+
+## [Leetcode 53 Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
+
+### Determine dp table and index
+
+`dp[i]` represents the maximum sum of continous subarray, ends with `nums[i]`
+
+### Determine recursion formula
+
+`dp[i]` can be calculated by two ways:
+
+1. `dp[i] = dp[i - 1] + nums[i]`
+2. `nums[i]`
+
+### How to initialize dp table
+
+From the recursion formula, `dp[0] = nums[0]`
+
+### Determine the order of traverse
+
+`dp[i]` depends on `nums[i]` and `dp[i - 1]`
+
+### Derive dp by example:
+
+<img src="../picture/March%20twentieth-fifth/maximum_subarray.jpg" width = "400" height = "228" alt="maximum_subarray" align=center/>
+
+```java
+public int maxSubArray(int[] nums) {
+    if(nums.length == 1){
+        return nums[0];
+    }
+    int[] dp = new int[nums.length];
+    dp[0] = nums[0];
+    for(int i = 1; i < nums.length; i ++){
+        dp[i] = Math.max(dp[i - 1] + nums[i], nums[i]);
+    }
+    int max = Integer.MIN_VALUE;
+    for(int j = 0; j < nums.length; j ++){
+        if(dp[j] > max){
+            max = dp[j];
+        }
+    }
+    return max;
+}
+```

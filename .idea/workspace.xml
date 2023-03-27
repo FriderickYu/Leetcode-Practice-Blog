@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Day 46">
-      <change afterPath="$PROJECT_DIR$/picture/March twentieth-fifth/maximum_subarray.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 8/March twentieth-seventh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/March twentieth-seventh/sequence.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 8/March twentieth-fifth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 8/March twentieth-fifth.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +49,23 @@
       <recent name="D:\Leetcode-Practice-Blog\picture\Februrary Second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Leetcode-Practice-Blog\picture\March twentieth-seventh" />
       <recent name="D:\Leetcode-Practice-Blog\picture\March twentieth-fifth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\March twentieth-fourth" />
       <recent name="D:\Leetcode-Practice-Blog\picture\March twentieth-first" />
       <recent name="D:\Leetcode-Practice-Blog\picture\March twentieth" />
-      <recent name="D:\Leetcode-Practice-Blog\picture\March eighteenth" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,6 +142,7 @@
       <workItem from="1679547885672" duration="1271000" />
       <workItem from="1679642862362" duration="6146000" />
       <workItem from="1679727286413" duration="4422000" />
+      <workItem from="1679902565595" duration="1914000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>

@@ -78,3 +78,34 @@ public int[] dailyTemperatures(int[] temperatures) {
     return result; 
 }
 ```
+
+## [Leetcode 496 Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/submissions/924642953/)
+
+```java
+public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+    Deque<Integer> stack = new LinkedList<>();
+    HashMap<Integer, Integer> hashmap = new HashMap<>();
+    for(int i = 0; i < nums1.length; i ++){
+        hashmap.put(nums1[i], i);
+    }
+    int[] result = new int[nums1.length];
+    Arrays.fill(result, -1);
+    stack.push(0);
+    for(int i = 1; i < nums2.length; i ++){
+        if(nums2[i] <= nums2[stack.peek()]){
+            stack.push(i);
+        }
+        else{
+            while(!stack.isEmpty() && nums2[stack.peek()] < nums2[i]){
+                if(hashmap.containsKey(nums2[stack.peek()])){
+                    Integer index = hashmap.get(nums2[stack.peek()]);
+                    result[index] = nums2[i];
+                }
+                stack.pop();
+            }
+            stack.push(i);
+        }
+    }
+    return result;
+}
+```

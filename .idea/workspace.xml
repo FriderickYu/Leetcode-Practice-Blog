@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0376f0-0d2f-43c0-9ea2-37e0f4d02472" name="Default Changelist" comment="Day 51">
-      <change afterPath="$PROJECT_DIR$/Week 9/March thirtieth.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/March thirtieth/example1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/March thirtieth/step1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/March thirtieth/step2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/March thirtieth/step3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/March thirtieth/step4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/March thirtieth/step5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/March thirtieth/step6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picture/March thirtieth/step7.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 9/March twentieth-nineth.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 9/March twentieth-nineth.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +141,7 @@
       <workItem from="1679902565595" duration="4926000" />
       <workItem from="1679988817127" duration="7217000" />
       <workItem from="1680082288389" duration="2335000" />
-      <workItem from="1680141499378" duration="8092000" />
+      <workItem from="1680141499378" duration="9722000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 704 analysis note">
       <created>1675249292430</created>
